@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>白話名詞小助教</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="workspace" aria-labelledby="app-title">
+        <div class="intro">
+          <p class="eyebrow">大學生快速理解工具</p>
+          <h1 id="app-title">白話名詞小助教</h1>
+          <p class="subtitle">輸入專有名詞或理論，產生短、清楚、生活化的說明。</p>
+        </div>
+
+        <form class="input-panel" id="explain-form">
+          <label for="concept">想理解什麼？</label>
+          <div class="entry-row">
+            <input
+              id="concept"
+              name="concept"
+              type="text"
+              placeholder="例如：RAG、熵、Transformer"
+              autocomplete="off"
+              maxlength="48"
+              required
+            />
+            <button type="submit" id="explain-button">解釋</button>
+          </div>
+          <div class="chips" aria-label="常用範例">
+            <button type="button" data-example="RAG">RAG</button>
+            <button type="button" data-example="Knowledge Graph">Knowledge Graph</button>
+            <button type="button" data-example="Vector Search">Vector Search</button>
+            <button type="button" data-example="薛丁格的貓">薛丁格的貓</button>
+            <button type="button" data-example="POC">POC</button>
+          </div>
+        </form>
+
+        <section class="result" id="result" aria-live="polite">
+          <div class="visual" aria-hidden="true">
+            <div class="visual-card search">找資料</div>
+            <div class="arrow"></div>
+            <div class="visual-card think">整理</div>
+            <div class="arrow"></div>
+            <div class="visual-card answer">說人話</div>
+          </div>
+
+          <article class="answer-card">
+            <div class="section">
+              <span>1</span>
+              <div>
+                <h2>一句話快速理解</h2>
+                <p id="quick">輸入一個概念，我會用一句話幫你抓重點。</p>
+              </div>
+            </div>
+
+            <div class="section">
+              <span>2</span>
+              <div>
+                <h2>白話解釋</h2>
+                <p id="plain">不用背專有名詞，先理解它在生活中大概是在做什麼。</p>
+              </div>
+            </div>
+
+            <div class="section">
+              <span>3</span>
+              <div>
+                <h2>生活化比喻</h2>
+                <p id="analogy">像把課本翻成同學會講的版本，先懂意思，再慢慢補細節。</p>
+              </div>
+            </div>
+
+            <div class="section">
+              <span>4</span>
+              <div>
+                <h2>關鍵重點</h2>
+                <ul id="points">
+                  <li>短句優先</li>
+                  <li>先抓核心</li>
+                  <li>再補例子</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="section">
+              <span>5</span>
+              <div>
+                <h2>如何用在造句中</h2>
+                <p id="sentence">輸入概念後，這裡會給你一個專業且正確的應用造句。</p>
+              </div>
+            </div>
+
+            <div class="section">
+              <span>6</span>
+              <div>
+                <h2>圖像輔助理解</h2>
+                <div class="concept-visual" id="concept-visual" aria-label="概念圖">
+                  <svg viewBox="0 0 620 190" role="img" aria-labelledby="default-visual-title">
+                    <title id="default-visual-title">學習流程圖</title>
+                    <rect x="20" y="52" width="150" height="76" rx="8" class="svg-blue"></rect>
+                    <rect x="235" y="52" width="150" height="76" rx="8" class="svg-green"></rect>
+                    <rect x="450" y="52" width="150" height="76" rx="8" class="svg-coral"></rect>
+                    <path d="M180 90 H222" class="svg-arrow"></path>
+                    <path d="M395 90 H437" class="svg-arrow"></path>
+                    <text x="95" y="97" text-anchor="middle">輸入名詞</text>
+                    <text x="310" y="97" text-anchor="middle">抓重點</text>
+                    <text x="525" y="97" text-anchor="middle">看圖理解</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js?v=6" defer></script>
+  </body>
+</html>
