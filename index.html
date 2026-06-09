@@ -10,48 +10,54 @@
     <main class="app">
       <section class="workspace" aria-labelledby="app-title">
         <div class="intro">
-          <p class="eyebrow">大學生快速理解工具</p>
-          <h1 id="app-title">白話名詞小助教</h1>
-          <p class="subtitle">輸入專有名詞或理論，產生短、清楚、生活化的說明。</p>
+          <p class="eyebrow" data-i18n="eyebrow">大學生快速理解工具</p>
+          <h1 id="app-title" data-i18n="title">白話名詞小助教</h1>
+          <p class="subtitle" data-i18n="subtitle">輸入專有名詞或理論，產生短、清楚、生活化的說明。</p>
         </div>
 
         <form class="input-panel" id="explain-form">
-          <label for="concept">想理解什麼？</label>
+          <div class="form-top">
+            <label for="concept" data-i18n="inputLabel">想理解什麼？</label>
+            <label class="language-control" for="language">
+              <span data-i18n="languageLabel">語系</span>
+              <select id="language" name="language" aria-label="語系">
+                <option value="zh">繁中</option>
+                <option value="en">English</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+              </select>
+            </label>
+          </div>
           <div class="entry-row">
             <input
               id="concept"
               name="concept"
               type="text"
-              placeholder="例如：RAG、熵、Transformer"
+              placeholder="例如：RAG、VC Joint Venture、Digitization"
               autocomplete="off"
               maxlength="48"
               required
             />
-            <button type="submit" id="explain-button">解釋</button>
+            <button type="submit" id="explain-button" data-i18n="explainButton">解釋</button>
           </div>
           <div class="chips" aria-label="常用範例">
             <button type="button" data-example="RAG">RAG</button>
             <button type="button" data-example="Knowledge Graph">Knowledge Graph</button>
             <button type="button" data-example="Vector Search">Vector Search</button>
+            <button type="button" data-example="VC Joint Venture">VC Joint Venture</button>
+            <button type="button" data-example="Lifestylization">Lifestylization</button>
             <button type="button" data-example="薛丁格的貓">薛丁格的貓</button>
             <button type="button" data-example="POC">POC</button>
           </div>
+          <p class="helper-note" data-i18n="helperNote">輸入黑話，系統會翻成白話；查不到就自動存到課後提問清單。</p>
         </form>
 
         <section class="result" id="result" aria-live="polite">
-          <div class="visual" aria-hidden="true">
-            <div class="visual-card search">找資料</div>
-            <div class="arrow"></div>
-            <div class="visual-card think">整理</div>
-            <div class="arrow"></div>
-            <div class="visual-card answer">說人話</div>
-          </div>
-
           <article class="answer-card">
             <div class="section">
               <span>1</span>
               <div>
-                <h2>一句話快速理解</h2>
+                <h2 data-i18n="quickHeading">一句話快速理解</h2>
                 <p id="quick">輸入一個概念，我會用一句話幫你抓重點。</p>
               </div>
             </div>
@@ -59,7 +65,7 @@
             <div class="section">
               <span>2</span>
               <div>
-                <h2>白話解釋</h2>
+                <h2 data-i18n="plainHeading">白話解釋</h2>
                 <p id="plain">不用背專有名詞，先理解它在生活中大概是在做什麼。</p>
               </div>
             </div>
@@ -67,7 +73,7 @@
             <div class="section">
               <span>3</span>
               <div>
-                <h2>生活化比喻</h2>
+                <h2 data-i18n="analogyHeading">生活化比喻</h2>
                 <p id="analogy">像把課本翻成同學會講的版本，先懂意思，再慢慢補細節。</p>
               </div>
             </div>
@@ -75,7 +81,7 @@
             <div class="section">
               <span>4</span>
               <div>
-                <h2>關鍵重點</h2>
+                <h2 data-i18n="pointsHeading">關鍵重點</h2>
                 <ul id="points">
                   <li>短句優先</li>
                   <li>先抓核心</li>
@@ -87,7 +93,7 @@
             <div class="section">
               <span>5</span>
               <div>
-                <h2>如何用在造句中</h2>
+                <h2 data-i18n="sentenceHeading">如何用在造句中</h2>
                 <p id="sentence">輸入概念後，這裡會給你一個專業且正確的應用造句。</p>
               </div>
             </div>
@@ -95,27 +101,32 @@
             <div class="section">
               <span>6</span>
               <div>
-                <h2>圖像輔助理解</h2>
+                <h2 data-i18n="visualHeading">這個詞怎麼運作</h2>
                 <div class="concept-visual" id="concept-visual" aria-label="概念圖">
-                  <svg viewBox="0 0 620 190" role="img" aria-labelledby="default-visual-title">
-                    <title id="default-visual-title">學習流程圖</title>
-                    <rect x="20" y="52" width="150" height="76" rx="8" class="svg-blue"></rect>
-                    <rect x="235" y="52" width="150" height="76" rx="8" class="svg-green"></rect>
-                    <rect x="450" y="52" width="150" height="76" rx="8" class="svg-coral"></rect>
-                    <path d="M180 90 H222" class="svg-arrow"></path>
-                    <path d="M395 90 H437" class="svg-arrow"></path>
-                    <text x="95" y="97" text-anchor="middle">輸入名詞</text>
-                    <text x="310" y="97" text-anchor="middle">抓重點</text>
-                    <text x="525" y="97" text-anchor="middle">看圖理解</text>
-                  </svg>
+                  <div class="flow-diagram" role="img" aria-label="學習流程圖">
+                    <div class="flow-node flow-blue">輸入名詞</div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node flow-green">抓重點</div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node flow-coral">看圖理解</div>
+                  </div>
                 </div>
               </div>
             </div>
           </article>
         </section>
+
+        <section class="question-log" aria-labelledby="question-log-title">
+          <div>
+            <p class="log-kicker" data-i18n="logKicker">課後發問暫存</p>
+            <h2 id="question-log-title" data-i18n="logTitle">可以舉手發問的詞</h2>
+          </div>
+          <p class="empty-log" id="empty-log" data-i18n="emptyLog">目前沒有查不到的詞彙可以做提問</p>
+          <ul class="log-list" id="unknown-log" aria-live="polite"></ul>
+        </section>
       </section>
     </main>
 
-    <script src="app.js?v=6" defer></script>
+    <script src="app.js?v=11" defer></script>
   </body>
 </html>

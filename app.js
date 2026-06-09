@@ -614,6 +614,406 @@ const supplementalConcepts = {
     sentence: "客服人員可透過 CRM 查詢客戶歷史紀錄，再提供更精準的服務。",
     visual: ["客戶資料", "互動紀錄", "服務銷售"],
   },
+  "vc joint venture": {
+    title: "VC / Joint Venture",
+    quick: "用投資或合資合作",
+    plain:
+      "VC 是創投，會投資有潛力的新公司；Joint Venture 是兩家公司合資成立或合作經營一個新事業。",
+    analogy: "像兩個社團一起出錢出人辦活動，共同承擔風險，也一起分享成果。",
+    points: ["VC 是 Venture Capital", "Joint Venture 是合資事業", "都常用於企業合作"],
+    sentence: "企業可透過 VC 投資新創，或以 Joint Venture 與夥伴共同開發新市場。",
+    visual: ["資金或夥伴", "共同投入", "新事業成長"],
+    i18n: {
+      en: {
+        quick: "Investment or joint partnership",
+        plain:
+          "VC means venture capital, which invests in promising companies. A joint venture is a shared business created or operated by two or more partners.",
+        analogy: "Like two clubs funding and running one event together, sharing both risk and results.",
+        points: ["VC means Venture Capital", "Joint Venture means shared business", "Both support business growth"],
+        sentence: "A company may use VC investment or a joint venture to enter a new market with lower shared risk.",
+        visual: ["Capital or partner", "Shared input", "New venture grows"],
+      },
+      ja: {
+        quick: "投資や合弁で協力する",
+        plain:
+          "VC は有望な企業に投資するベンチャーキャピタルです。Joint Venture は複数の会社が共同で作る、または運営する事業です。",
+        analogy: "二つのサークルが一緒に資金と人を出してイベントを開くようなものです。",
+        points: ["VC はベンチャー投資", "Joint Venture は合弁事業", "企業連携で使われる"],
+        sentence: "企業は VC 投資や Joint Venture により、新市場への参入リスクを分担できる。",
+        visual: ["資金や相手", "共同投入", "新事業が成長"],
+      },
+      ko: {
+        quick: "투자나 합작으로 협력",
+        plain:
+          "VC는 성장 가능성이 있는 회사에 투자하는 벤처캐피털입니다. Joint Venture는 둘 이상의 회사가 함께 만들거나 운영하는 합작 사업입니다.",
+        analogy: "두 동아리가 함께 돈과 인력을 내어 행사를 운영하고 결과를 나누는 것과 같습니다.",
+        points: ["VC는 벤처캐피털", "Joint Venture는 합작 사업", "기업 협력에 자주 쓰임"],
+        sentence: "기업은 VC 투자나 Joint Venture를 통해 위험을 나누며 새로운 시장에 진입할 수 있다.",
+        visual: ["자본 또는 파트너", "공동 투입", "신사업 성장"],
+      },
+    },
+  },
+  digitization: {
+    title: "Digitization",
+    quick: "把資料變成數位格式",
+    plain:
+      "Digitization 是把紙本、照片或錄音等類比資料轉成電腦可以保存和處理的數位資料。",
+    analogy: "像把紙本講義掃描成 PDF，之後就能搜尋、複製和分享。",
+    points: ["中文是數位化", "把類比資料轉成數位", "是數位轉型的基礎"],
+    sentence: "企業先進行 Digitization，將紙本合約轉成可搜尋的電子文件。",
+    visual: ["紙本資料", "轉成檔案", "可搜尋處理"],
+    i18n: {
+      en: {
+        quick: "Turn information into digital form",
+        plain:
+          "Digitization means converting paper, photos, audio, or other analog materials into digital data that computers can store and process.",
+        analogy: "Like scanning handouts into PDFs so they can be searched and shared.",
+        points: ["Converts analog to digital", "Makes data easier to store", "Foundation of digital transformation"],
+        sentence: "The company began digitization by converting paper contracts into searchable electronic documents.",
+        visual: ["Paper data", "Digital file", "Searchable data"],
+      },
+      ja: {
+        quick: "情報をデジタル形式にする",
+        plain:
+          "Digitization は紙、写真、音声などをコンピューターで保存・処理できるデジタルデータに変えることです。",
+        analogy: "紙の資料を PDF にスキャンして検索や共有をしやすくするイメージです。",
+        points: ["アナログをデジタル化", "保存しやすくする", "DX の土台になる"],
+        sentence: "企業は紙の契約書を検索可能な電子文書に変換することで Digitization を進めた。",
+        visual: ["紙資料", "デジタル化", "検索可能"],
+      },
+      ko: {
+        quick: "정보를 디지털 형식으로 전환",
+        plain:
+          "Digitization은 종이, 사진, 음성 같은 아날로그 자료를 컴퓨터가 저장하고 처리할 수 있는 디지털 데이터로 바꾸는 것입니다.",
+        analogy: "종이 강의안을 PDF로 스캔해 검색하고 공유할 수 있게 만드는 것과 같습니다.",
+        points: ["아날로그를 디지털로 전환", "저장과 처리가 쉬움", "디지털 전환의 기반"],
+        sentence: "기업은 종이 계약서를 검색 가능한 전자 문서로 바꾸며 Digitization을 시작했다.",
+        visual: ["종이 자료", "디지털 파일", "검색 가능"],
+      },
+    },
+  },
+  globalization: {
+    title: "Globalization",
+    quick: "讓事業走向全球",
+    plain:
+      "Globalization 是產品、服務、人才和資金跨越國界流動，讓企業和市場彼此更緊密連結。",
+    analogy: "像一款手機 App 可以在不同國家下載，服務不再只限本地。",
+    points: ["中文是全球化", "跨國市場連結", "需要考慮文化與法規"],
+    sentence: "企業推動 Globalization 時，必須調整產品語言、付款方式與在地法規要求。",
+    visual: ["本地市場", "跨國連結", "全球營運"],
+    i18n: {
+      en: {
+        quick: "Expand business across borders",
+        plain:
+          "Globalization is the movement of products, services, people, and capital across countries, making markets more connected.",
+        analogy: "Like an app that can be downloaded and used in many countries, not only at home.",
+        points: ["Connects global markets", "Crosses national borders", "Requires local adaptation"],
+        sentence: "When pursuing globalization, a company must adapt language, payments, and compliance for local markets.",
+        visual: ["Local market", "Cross-border link", "Global operation"],
+      },
+      ja: {
+        quick: "事業を世界へ広げる",
+        plain:
+          "Globalization は商品、サービス、人材、資金が国境を越えて動き、市場同士がつながることです。",
+        analogy: "一つのアプリが複数の国で使われるようになるイメージです。",
+        points: ["市場を国際的につなぐ", "国境を越える", "現地対応が必要"],
+        sentence: "Globalization を進める企業は、言語、決済、規制に合わせた対応が必要である。",
+        visual: ["国内市場", "国際連携", "世界展開"],
+      },
+      ko: {
+        quick: "사업을 세계로 확장",
+        plain:
+          "Globalization은 제품, 서비스, 인재, 자본이 국경을 넘어 이동하며 시장이 더 긴밀히 연결되는 현상입니다.",
+        analogy: "하나의 앱이 여러 나라에서 다운로드되고 사용되는 것과 같습니다.",
+        points: ["세계 시장 연결", "국경을 넘는 활동", "현지화가 필요"],
+        sentence: "기업이 Globalization을 추진할 때는 언어, 결제, 현지 규정을 함께 고려해야 한다.",
+        visual: ["현지 시장", "국경 연결", "글로벌 운영"],
+      },
+    },
+  },
+  capitalization: {
+    title: "Capitalization",
+    quick: "把資源變成資本價值",
+    plain:
+      "Capitalization 可指把能力、品牌、資料或資產轉成可估值、可投資、可成長的資本價值。",
+    analogy: "像把個人作品整理成作品集，讓能力變得看得見、能被評價。",
+    points: ["中文可稱資本化", "把資源變可估值", "常見於商業策略"],
+    sentence: "企業可透過資料 Capitalization，將營運資料轉化為新服務與決策資產。",
+    visual: ["原始資源", "整理估值", "形成資本"],
+    i18n: {
+      en: {
+        quick: "Turn resources into capital value",
+        plain:
+          "Capitalization means turning assets, capabilities, data, or brands into value that can be measured, invested in, or scaled.",
+        analogy: "Like organizing your work into a portfolio so your ability becomes visible and valuable.",
+        points: ["Turns resources into value", "Supports investment decisions", "Common in business strategy"],
+        sentence: "Data capitalization can turn operational data into new services and strategic decision assets.",
+        visual: ["Raw resource", "Valuation", "Capital value"],
+      },
+      ja: {
+        quick: "資源を資本価値に変える",
+        plain:
+          "Capitalization は能力、ブランド、データ、資産を評価・投資・拡大できる価値に変えることです。",
+        analogy: "作品をポートフォリオにまとめ、能力を見える価値にするようなものです。",
+        points: ["資源を価値化する", "投資判断に役立つ", "事業戦略で使われる"],
+        sentence: "企業はデータの Capitalization により、運用データを新サービスや意思決定資産に変えられる。",
+        visual: ["元の資源", "価値評価", "資本価値"],
+      },
+      ko: {
+        quick: "자원을 자본 가치로 전환",
+        plain:
+          "Capitalization은 역량, 브랜드, 데이터, 자산을 평가하거나 투자하고 확장할 수 있는 가치로 바꾸는 것입니다.",
+        analogy: "작업물을 포트폴리오로 정리해 능력을 보이는 가치로 만드는 것과 같습니다.",
+        points: ["자원을 가치로 전환", "투자 판단에 활용", "비즈니스 전략에서 사용"],
+        sentence: "기업은 데이터 Capitalization을 통해 운영 데이터를 새로운 서비스와 의사결정 자산으로 바꿀 수 있다.",
+        visual: ["원천 자원", "가치 평가", "자본 가치"],
+      },
+    },
+  },
+  lifestylization: {
+    title: "Lifestylization",
+    quick: "把產業變生活體驗",
+    plain:
+      "Lifestylization 是公司自造詞，可譯為生活產業化或生活產業話，指把產品或服務包裝成貼近日常生活的體驗。",
+    analogy: "像咖啡不只賣飲料，而是賣讀書、社交、放鬆的生活場景。",
+    points: ["公司自造詞", "可譯生活產業化", "強調生活情境與體驗"],
+    sentence: "品牌透過 Lifestylization，將單一商品延伸成飲食、旅遊與社群互動的生活體驗。",
+    visual: ["產品服務", "生活情境", "體驗品牌"],
+    i18n: {
+      en: {
+        quick: "Turn business into lifestyle experience",
+        plain:
+          "Lifestylization is a company-coined term. It means shaping products or services into everyday lifestyle experiences, not only functional offerings.",
+        analogy: "Like a cafe selling not only coffee, but also a place to study, socialize, and relax.",
+        points: ["Company-coined term", "Lifestyle-oriented business", "Focuses on daily experience"],
+        sentence: "Through lifestylization, the brand extends a product into dining, travel, and community experiences.",
+        visual: ["Product", "Lifestyle scene", "Brand experience"],
+      },
+      ja: {
+        quick: "事業を生活体験にする",
+        plain:
+          "Lifestylization は会社独自の造語で、商品やサービスを日常生活に近い体験として設計する考え方です。",
+        analogy: "カフェがコーヒーだけでなく、勉強、交流、休憩の場を提供するようなものです。",
+        points: ["会社独自の造語", "生活体験を重視", "商品を場面に広げる"],
+        sentence: "Lifestylization により、ブランドは商品を飲食、旅行、コミュニティ体験へ広げられる。",
+        visual: ["商品", "生活場面", "ブランド体験"],
+      },
+      ko: {
+        quick: "사업을 생활 경험으로 전환",
+        plain:
+          "Lifestylization은 회사가 만든 용어로, 제품이나 서비스를 일상생활에 가까운 경험으로 설계하는 뜻입니다.",
+        analogy: "카페가 커피뿐 아니라 공부, 만남, 휴식의 공간을 파는 것과 같습니다.",
+        points: ["회사 자체 용어", "생활 경험 중심", "제품을 생활 장면으로 확장"],
+        sentence: "브랜드는 Lifestylization을 통해 단일 제품을 식음, 여행, 커뮤니티 경험으로 확장할 수 있다.",
+        visual: ["제품", "생활 장면", "브랜드 경험"],
+      },
+    },
+  },
+  "professional management": {
+    title: "Professional Management",
+    quick: "由專業經理人治理",
+    plain:
+      "專業經理人化可譯為 Professionalization of Management，指公司逐步由受過管理訓練的專業經理人負責經營。",
+    analogy: "像球隊不只靠老闆熱情，而是請專業教練和經理團隊管理訓練、戰術和營運。",
+    points: ["建議英文是 Professionalization of Management", "強調制度化管理", "降低只靠個人經驗的風險"],
+    sentence: "Professionalization of Management helps a family business move from founder-led decisions to systematic governance.",
+    visual: ["個人經驗", "制度管理", "專業治理"],
+    i18n: {
+      en: {
+        quick: "Run by professional managers",
+        plain:
+          "Professionalization of Management means shifting a company toward systematic management led by trained professional managers.",
+        analogy: "Like a sports team hiring professional coaches and managers instead of relying only on the owner's passion.",
+        points: ["Best translation: Professionalization of Management", "Emphasizes systematic governance", "Reduces reliance on personal experience"],
+        sentence: "Professionalization of Management helps a family business move from founder-led decisions to systematic governance.",
+        visual: ["Personal experience", "Management system", "Professional governance"],
+      },
+      ja: {
+        quick: "専門経営者による運営",
+        plain:
+          "Professionalization of Management は、訓練を受けた専門経営者が制度的に会社を運営する方向へ移ることです。",
+        analogy: "球団がオーナーの情熱だけでなく、専門コーチと運営チームで管理するようなものです。",
+        points: ["英訳は Professionalization of Management", "制度的な経営を重視", "個人経験への依存を下げる"],
+        sentence: "Professionalization of Management は、創業者中心の判断から制度的ガバナンスへの移行を助ける。",
+        visual: ["個人経験", "管理制度", "専門経営"],
+      },
+      ko: {
+        quick: "전문 경영인이 운영",
+        plain:
+          "Professionalization of Management는 훈련받은 전문 경영인이 제도적으로 회사를 운영하도록 전환하는 것을 뜻합니다.",
+        analogy: "구단이 구단주의 열정만이 아니라 전문 감독과 운영팀으로 훈련과 전략을 관리하는 것과 같습니다.",
+        points: ["영문 번역: Professionalization of Management", "제도적 경영 강조", "개인 경험 의존 감소"],
+        sentence: "Professionalization of Management는 창업자 중심 의사결정에서 체계적 거버넌스로 전환하는 데 도움을 준다.",
+        visual: ["개인 경험", "관리 제도", "전문 경영"],
+      },
+    },
+  },
+  mcp: {
+    title: "MCP",
+    full: "Model Context Protocol",
+    quick: "讓AI接工具的規格",
+    plain:
+      "MCP 是一種讓 AI 用一致方式連接外部工具、資料和服務的規格，方便系統安全地取得需要的脈絡。",
+    analogy: "像通用插座，讓不同工具都能用同一套規則接上 AI。",
+    points: ["全名是 Model Context Protocol", "連接工具和資料", "讓AI取得工作脈絡"],
+    sentence: "企業可透過 MCP 讓 AI Agent 查詢內部資料庫，同時維持工具存取規範。",
+    visual: ["AI需求", "MCP連接", "工具資料"],
+  },
+  genai: {
+    title: "GenAI",
+    full: "Generative AI",
+    quick: "會生成內容的AI",
+    plain:
+      "GenAI 是生成式 AI，可以根據使用者指令產生文字、圖片、程式碼、摘要或其他內容。",
+    analogy: "像一位會依照題目寫草稿的助教，但內容仍需要人檢查。",
+    points: ["全名是 Generative AI", "可生成多種內容", "需要查證與引導"],
+    sentence: "企業導入 GenAI 時，應搭配資料治理與人工審核，降低錯誤內容風險。",
+    visual: ["使用者指令", "生成模型", "內容輸出"],
+  },
+  "模型即應用": {
+    title: "模型即應用",
+    quick: "模型本身就是功能核心",
+    plain:
+      "模型即應用是說 AI 模型不只是藏在後台的零件，而是直接成為產品功能和使用體驗的核心。",
+    analogy: "像導航 App 的核心不是地圖圖片，而是會幫你規劃路線的演算法。",
+    points: ["模型成為產品核心", "體驗直接來自AI能力", "產品差異來自模型表現"],
+    sentence: "在模型即應用的產品中，使用者感受到的價值主要來自模型的理解與生成能力。",
+    visual: ["AI模型", "產品功能", "使用者價值"],
+  },
+  "智能即產品": {
+    title: "智能即產品",
+    quick: "賣的是AI能力本身",
+    plain:
+      "智能即產品是指產品的主要價值來自 AI 判斷、生成或自動執行能力，而不只是傳統軟體介面。",
+    analogy: "像買的不是一張表格，而是一個會幫你整理表格、找問題的助理。",
+    points: ["AI能力就是賣點", "重視自動化與判斷", "產品價值更動態"],
+    sentence: "當智能即產品成為趨勢，企業需要把 AI 能力設計成可被使用者直接感知的服務。",
+    visual: ["資料輸入", "智能判斷", "產品價值"],
+  },
+  "通用即垂直": {
+    title: "通用即垂直",
+    quick: "通用AI要落到場景",
+    plain:
+      "通用即垂直是說通用 AI 能力要真正有用，通常需要放進特定產業、角色或流程裡，變成垂直應用。",
+    analogy: "像萬用刀很厲害，但拿到廚房、露營或修理場景，才知道怎麼發揮。",
+    points: ["通用能力需場景化", "垂直應用更貼近需求", "需要領域資料輔助"],
+    sentence: "通用即垂直代表企業應將大型模型能力嵌入客服、法務或研發等具體流程。",
+    visual: ["通用模型", "特定場景", "垂直應用"],
+  },
+  "原生即工程": {
+    title: "原生即工程",
+    quick: "AI原生也要工程落地",
+    plain:
+      "原生即工程是提醒大家，AI 原生產品不只靠模型想像，還需要資料、流程、權限、監控和部署等工程能力。",
+    analogy: "像餐廳不只要有好食譜，還要有廚房、流程、衛生和出餐管理。",
+    points: ["AI原生需要工程支撐", "不只模型展示", "重視可維運與可擴充"],
+    sentence: "原生即工程強調，AI 應用若要進企業，就必須具備穩定部署與權限控管能力。",
+    visual: ["AI想法", "工程系統", "穩定落地"],
+  },
+  "長尾需求": {
+    title: "長尾需求",
+    quick: "少量但很多種的需求",
+    plain:
+      "長尾需求是指每一種需求看起來人不多，但種類非常多，加起來可能形成很大的市場或工作量。",
+    analogy: "像書店不只賣暢銷書，很多冷門書各賣一點，加起來也很可觀。",
+    points: ["單一需求量小", "種類很多", "AI適合處理客製化需求"],
+    sentence: "GenAI 可協助企業用較低成本回應大量長尾需求，例如個人化客服與客製內容生成。",
+    visual: ["少量需求", "種類很多", "累積價值"],
+  },
+  "數據": {
+    title: "數據",
+    quick: "可被分析的資料",
+    plain:
+      "數據是被收集、整理後可用來分析和判斷的資料，例如銷售紀錄、點擊率、問卷結果或感測器讀數。",
+    analogy: "像班級成績表，單一分數是資料，整理後就能看出整體學習狀況。",
+    points: ["資料經整理可分析", "支援決策", "AI需要高品質數據"],
+    sentence: "企業若想讓 AI 回答更準確，就需要先整理乾淨且有代表性的數據。",
+    visual: ["原始資料", "整理分析", "輔助決策"],
+  },
+  "模型": {
+    title: "模型",
+    quick: "用來判斷或生成的規則",
+    plain:
+      "模型是電腦從資料中學到的判斷方式，可以用來分類、預測、生成內容或協助決策。",
+    analogy: "像你看過很多考古題後，學會判斷下一題大概怎麼解。",
+    points: ["從資料學規律", "可預測或生成", "表現取決於資料與設計"],
+    sentence: "若訓練資料品質不足，模型即使很大，也可能產生不穩定或偏誤的結果。",
+    visual: ["訓練資料", "學習規律", "產生輸出"],
+  },
+  ar: {
+    title: "AR",
+    full: "Augmented Reality",
+    quick: "把虛擬物疊到現實",
+    plain:
+      "AR 是擴增實境，會在真實世界畫面上疊加虛擬資訊，例如手機鏡頭中出現方向箭頭或商品預覽。",
+    analogy: "像用手機看房間時，螢幕上直接看到家具擺進去的樣子。",
+    points: ["全名是 Augmented Reality", "中文是擴增實境", "現實畫面加上虛擬資訊"],
+    sentence: "零售業可用 AR 讓顧客在家中預覽家具擺放效果。",
+    visual: ["真實世界", "疊加資訊", "互動體驗"],
+  },
+  vr: {
+    title: "VR",
+    full: "Virtual Reality",
+    quick: "進入全虛擬世界",
+    plain:
+      "VR 是虛擬實境，使用者戴上裝置後會進入電腦生成的虛擬環境，感覺像置身其中。",
+    analogy: "像不是看遊戲畫面，而是整個人走進遊戲場景裡。",
+    points: ["全名是 Virtual Reality", "中文是虛擬實境", "沉浸在虛擬環境"],
+    sentence: "VR 可用於安全訓練，讓學員在虛擬場景中練習高風險操作。",
+    visual: ["戴上裝置", "虛擬環境", "沉浸互動"],
+  },
+  mr: {
+    title: "MR",
+    full: "Mixed Reality",
+    quick: "真實與虛擬可互動",
+    plain:
+      "MR 是混合實境，讓虛擬物件不只疊在現實上，還能和真實空間產生互動。",
+    analogy: "像虛擬模型放在桌上，還能繞著它看、移動它或和它互動。",
+    points: ["全名是 Mixed Reality", "中文是混合實境", "虛實物件可互動"],
+    sentence: "工程師可用 MR 在真實機台旁查看虛擬維修指引。",
+    visual: ["真實空間", "虛擬物件", "互動操作"],
+  },
+  xr: {
+    title: "XR",
+    full: "Extended Reality",
+    quick: "AR、VR、MR的總稱",
+    plain:
+      "XR 是延展實境，是 AR、VR、MR 等沉浸式技術的總稱，用來描述各種虛實融合體驗。",
+    analogy: "像把手機、平板、筆電都統稱為數位裝置，XR 是一整類技術的總稱。",
+    points: ["全名是 Extended Reality", "涵蓋AR、VR、MR", "描述沉浸式體驗"],
+    sentence: "品牌可透過 XR 活動，讓消費者用沉浸式方式體驗新品。",
+    visual: ["AR", "VR/MR", "XR總稱"],
+  },
+  "agentic workflow": {
+    title: "Agentic Workflow",
+    quick: "讓AI代理跑完整流程",
+    plain:
+      "Agentic Workflow 是讓 AI Agent 根據目標規劃步驟、呼叫工具、檢查結果，完成一串工作流程。",
+    analogy: "像助教不只回答問題，還會查資料、整理表格、寄信提醒，自己把流程跑完。",
+    points: ["由AI代理推動流程", "會使用工具", "適合多步驟任務"],
+    sentence: "Agentic Workflow 可讓 AI 自動完成資料查詢、摘要生成與任務派送。",
+    visual: ["設定目標", "Agent執行", "完成流程"],
+  },
+  "dynamic workflow": {
+    title: "Dynamic Workflow",
+    quick: "會依情況改變流程",
+    plain:
+      "Dynamic Workflow 是流程不完全固定，系統會根據資料、狀態或判斷結果，選擇下一步要做什麼。",
+    analogy: "像 GPS 導航會依照塞車情況即時改路線。",
+    points: ["流程會動態調整", "依條件決定下一步", "適合不確定情境"],
+    sentence: "客服系統可用 Dynamic Workflow 依問題類型自動分流到不同處理流程。",
+    visual: ["輸入狀態", "判斷條件", "改變流程"],
+  },
+  "沙盒": {
+    title: "沙盒 / 沙箱",
+    quick: "安全隔離的測試空間",
+    plain:
+      "沙盒或沙箱是隔離的測試環境，讓程式、檔案或 AI 工具可以先在安全範圍內執行，避免影響正式系統。",
+    analogy: "像小朋友在沙坑玩，就算弄亂也不會把整個教室弄髒。",
+    points: ["隔離測試環境", "降低正式系統風險", "常用於資安與開發"],
+    sentence: "開發團隊會先在沙盒環境測試 AI Agent 的工具呼叫，再部署到正式系統。",
+    visual: ["待測功能", "隔離環境", "安全驗證"],
+  },
   openclaw: {
     title: "OpenClaw／OpenCopilot",
     quick: "未定義的AI框架代稱",
@@ -696,9 +1096,124 @@ const aliases = {
   "b2b / b2c / b2e": "b2b",
   "企業資源規劃": "erp",
   "客戶關係管理": "crm",
+  "vc join venture": "vc joint venture",
+  "joint venture": "vc joint venture",
+  "venture capital": "vc joint venture",
+  "數位化": "digitization",
+  "全球化": "globalization",
+  "資本化": "capitalization",
+  "生活產業話": "lifestylization",
+  "生活產業化": "lifestylization",
+  "專業經理人化": "professional management",
+  "professionalization of management": "professional management",
+  "mcp server": "mcp",
+  "model context protocol": "mcp",
+  "generative ai": "genai",
+  "生成式ai": "genai",
+  "生成式 ai": "genai",
+  "模型即應用": "模型即應用",
+  "智能即產品": "智能即產品",
+  "通用即垂直": "通用即垂直",
+  "原生即工程": "原生即工程",
+  "長尾需求": "長尾需求",
+  "data": "數據",
+  "model": "模型",
+  "augmented reality": "ar",
+  "virtual reality": "vr",
+  "mixed reality": "mr",
+  "extended reality": "xr",
+  "agentic workflow": "agentic workflow",
+  "dynamic workflow": "dynamic workflow",
+  "龍蝦": "openclaw",
+  "open claw": "openclaw",
+  "沙箱": "沙盒",
+  "sandbox": "沙盒",
 };
 
 const unknownAcronyms = new Set();
+let currentLanguage = "zh";
+let currentTerm = "";
+const unknownTerms = [];
+
+const uiText = {
+  zh: {
+    eyebrow: "課堂黑話即時救援",
+    title: "蛤? 這位演講的大哥剛剛說什麼? 請餵我翻譯蒟蒻",
+    subtitle: "把課堂黑話、AI 術語、企業簡報詞，翻成大一生與學員也聽得懂的版本。",
+    inputLabel: "想理解什麼？",
+    languageLabel: "語系",
+    explainButton: "請講人話",
+    quickHeading: "一句話先救你",
+    plainHeading: "說人話版本",
+    analogyHeading: "拿生活來比一下",
+    pointsHeading: "關鍵重點",
+    sentenceHeading: "報告可以這樣寫",
+    visualHeading: "這個詞怎麼運作",
+    logKicker: "課後發問暫存",
+    logTitle: "可以舉手發問的詞",
+    emptyLog: "目前沒有查不到的詞彙可以做提問",
+    helperNote: "輸入黑話，系統會翻成白話；查不到就自動存到課後提問清單。",
+    placeholder: "例如：RAG、VC Joint Venture、Digitization",
+  },
+  en: {
+    eyebrow: "Fast concept helper for students",
+    title: "Plain-Language Term Tutor",
+    subtitle: "Enter a term or theory and get a short, clear, everyday explanation.",
+    inputLabel: "What do you want to understand?",
+    languageLabel: "Language",
+    explainButton: "Explain",
+    quickHeading: "Quick Understanding",
+    plainHeading: "Plain Explanation",
+    analogyHeading: "Everyday Analogy",
+    pointsHeading: "Key Points",
+    sentenceHeading: "Use It In A Sentence",
+    visualHeading: "How This Term Works",
+    logKicker: "After-class question log",
+    logTitle: "Terms worth asking about",
+    emptyLog: "No unknown terms yet for follow-up questions.",
+    helperNote: "Enter confusing jargon, get a plain explanation; unknown terms are saved for after-class questions.",
+    placeholder: "e.g. RAG, VC Joint Venture, Digitization",
+  },
+  ja: {
+    eyebrow: "大学生向けの高速理解ツール",
+    title: "やさしい専門用語チューター",
+    subtitle: "専門用語や理論を入力すると、短く分かりやすく説明します。",
+    inputLabel: "何を理解したいですか？",
+    languageLabel: "言語",
+    explainButton: "説明",
+    quickHeading: "一言で理解",
+    plainHeading: "やさしい説明",
+    analogyHeading: "日常のたとえ",
+    pointsHeading: "重要ポイント",
+    sentenceHeading: "文章での使い方",
+    visualHeading: "この用語の仕組み",
+    logKicker: "授業後の質問メモ",
+    logTitle: "質問できる用語",
+    emptyLog: "今のところ質問用に残す未登録語はありません。",
+    helperNote: "分かりにくい用語を入力すると、やさしい説明に変換します。未登録語は質問メモに残ります。",
+    placeholder: "例：RAG、VC Joint Venture、Digitization",
+  },
+  ko: {
+    eyebrow: "대학생을 위한 빠른 개념 이해 도구",
+    title: "쉬운 용어 튜터",
+    subtitle: "전문 용어나 이론을 입력하면 짧고 쉽게 설명합니다.",
+    inputLabel: "무엇을 이해하고 싶나요?",
+    languageLabel: "언어",
+    explainButton: "설명",
+    quickHeading: "한 줄 이해",
+    plainHeading: "쉬운 설명",
+    analogyHeading: "생활 속 비유",
+    pointsHeading: "핵심 포인트",
+    sentenceHeading: "문장 속 활용",
+    visualHeading: "이 용어가 작동하는 방식",
+    logKicker: "수업 후 질문 메모",
+    logTitle: "질문할 만한 용어",
+    emptyLog: "아직 질문할 수 있는 미등록 용어가 없습니다.",
+    helperNote: "어려운 용어를 입력하면 쉬운 설명으로 바꾸고, 모르는 용어는 질문 메모에 저장합니다.",
+    placeholder: "예: RAG, VC Joint Venture, Digitization",
+  },
+};
+
 const defaultMessage = {
   quick: "先輸入一個概念",
   plain: "可以輸入課堂上聽不懂的名詞，例如 RAG、熵、LLM 或邊際效用。",
@@ -706,6 +1221,32 @@ const defaultMessage = {
   points: ["輸入名詞", "按下解釋", "看短版重點"],
   sentence: "請先輸入一個概念，系統會產生適合放進報告或作業中的造句。",
   visual: ["輸入概念", "生成解釋", "搭配圖像"],
+  i18n: {
+    en: {
+      quick: "Enter a concept first",
+      plain: "Type a term from class, such as RAG, LLM, POC, or Digitization.",
+      analogy: "Like asking a classmate, 'What does this actually do?' Start with the plain idea.",
+      points: ["Enter a term", "Press Explain", "Read the short summary"],
+      sentence: "Enter a concept first, and the app will generate a sentence suitable for reports or assignments.",
+      visual: ["Enter concept", "Generate explanation", "Add visual aid"],
+    },
+    ja: {
+      quick: "まず概念を入力",
+      plain: "授業で分からない用語を入力してください。例：RAG、LLM、POC、Digitization。",
+      analogy: "友だちに「これは何をするもの？」と聞くように、まず大意をつかみます。",
+      points: ["用語を入力", "説明を押す", "短い要点を見る"],
+      sentence: "概念を入力すると、レポートや課題に使える文を生成します。",
+      visual: ["概念を入力", "説明を生成", "図で補助"],
+    },
+    ko: {
+      quick: "먼저 개념을 입력하세요",
+      plain: "수업에서 이해하기 어려운 용어를 입력하세요. 예: RAG, LLM, POC, Digitization.",
+      analogy: "친구에게 '이게 정확히 뭘 하는 거야?'라고 묻듯이 먼저 핵심을 잡습니다.",
+      points: ["용어 입력", "설명 누르기", "짧은 요약 보기"],
+      sentence: "개념을 입력하면 보고서나 과제에 쓸 수 있는 문장을 생성합니다.",
+      visual: ["개념 입력", "설명 생성", "그림 보조"],
+    },
+  },
 };
 
 function cleanText(value) {
@@ -724,11 +1265,6 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function shortLabel(value) {
-  const text = String(value);
-  return text.length > 9 ? `${text.slice(0, 9)}...` : text;
-}
-
 function makeGenericExplanation(term) {
   const lower = term.toLowerCase();
   const full = acronymFullNames[lower];
@@ -738,15 +1274,53 @@ function makeGenericExplanation(term) {
   if (!full) {
     return {
       quick: `查不到「${shortTerm}」`,
-      plain: `目前內建資料沒有「${term}」的可靠解釋，所以先不硬掰答案。請換一個常見說法，或補充它是哪一門課的概念。`,
-      analogy: "像在圖書館找不到書名，先確認拼字、作者或分類，會比較容易找到。",
+      plain: `恭喜你，可以舉手發問了!! 因為教授沒有內建定義，這題我先不硬掰。請換個說法，或補一下領域試試。`,
+      analogy: "像課堂投影片突然冒出沒解釋的縮寫，這時候舉手問很合理。",
       points: [
         needsLookup ? "若是縮寫，先確認全名" : "確認名稱有沒有打錯",
         "可補充科目或領域",
         "避免產生不可靠答案",
       ],
       sentence: "目前查找不到可靠定義，因此暫不提供專業造句，避免誤用概念。",
-      visual: ["查無可靠資料", "確認名稱", "補充領域再試"],
+      visual: ["查無內建定義", "記到提問清單", "課後發問"],
+      i18n: {
+        en: {
+          quick: `No result for "${shortTerm}"`,
+          plain: `The built-in glossary does not yet have a reliable explanation for "${term}". Try another common name, or add the course/field context.`,
+          analogy: "Like not finding a book in the library; check the spelling, author, or category first.",
+          points: [
+            needsLookup ? "If it is an acronym, check the full name" : "Check spelling or naming",
+            "Add subject or field context",
+            "Avoid unreliable answers",
+          ],
+          sentence: "No professional sentence is provided because the definition is not reliable yet.",
+          visual: ["No reliable data", "Check name", "Add context"],
+        },
+        ja: {
+          quick: `「${shortTerm}」は見つかりません`,
+          plain: `内蔵用語集には「${term}」の信頼できる説明がまだありません。別の一般的な名称を試すか、科目や分野を補足してください。`,
+          analogy: "図書館で本が見つからない時、まず書名、著者、分類を確認するようなものです。",
+          points: [
+            needsLookup ? "略語なら正式名称を確認" : "表記を確認",
+            "科目や分野を補足",
+            "不確かな回答を避ける",
+          ],
+          sentence: "定義がまだ信頼できないため、専門的な例文は提供しません。",
+          visual: ["信頼資料なし", "名称確認", "分野を補足"],
+        },
+        ko: {
+          quick: `"${shortTerm}"을 찾을 수 없음`,
+          plain: `내장 용어집에는 "${term}"에 대한 신뢰할 수 있는 설명이 아직 없습니다. 더 일반적인 이름을 입력하거나 과목/분야를 보충해 주세요.`,
+          analogy: "도서관에서 책을 못 찾을 때 먼저 제목, 저자, 분류를 확인하는 것과 같습니다.",
+          points: [
+            needsLookup ? "약어라면 전체 이름 확인" : "철자나 명칭 확인",
+            "과목이나 분야 보충",
+            "부정확한 답변 방지",
+          ],
+          sentence: "정의가 아직 신뢰할 수 없으므로 전문 예문은 제공하지 않습니다.",
+          visual: ["신뢰 자료 없음", "명칭 확인", "분야 보충"],
+        },
+      },
     };
   }
 
@@ -764,6 +1338,30 @@ function makeGenericExplanation(term) {
   };
 }
 
+function localizeData(data) {
+  if (currentLanguage === "zh" || !data.i18n || !data.i18n[currentLanguage]) {
+    return data;
+  }
+
+  return {
+    ...data,
+    ...data.i18n[currentLanguage],
+  };
+}
+
+function updateUiLanguage(elements) {
+  const text = uiText[currentLanguage] || uiText.zh;
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    const key = node.dataset.i18n;
+    if (text[key]) {
+      node.textContent = text[key];
+    }
+  });
+  elements.input.placeholder = text.placeholder;
+  elements.language.setAttribute("aria-label", text.languageLabel);
+  renderUnknownLog(elements);
+}
+
 function setPoints(points, elements) {
   elements.points.innerHTML = "";
   points.slice(0, 3).forEach((point) => {
@@ -774,41 +1372,54 @@ function setPoints(points, elements) {
 }
 
 function renderLearningVisual(steps, elements) {
-  const labels = steps.slice(0, 3).map((step) => escapeHtml(shortLabel(step)));
+  const labels = steps.slice(0, 3).map(escapeHtml);
   elements.visual.innerHTML = `
-    <svg viewBox="0 0 620 190" role="img" aria-label="概念流程圖">
-      <defs>
-        <marker id="arrow-head" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
-          <path d="M0,0 L0,6 L8,3 z" fill="#c9d2e2"></path>
-        </marker>
-      </defs>
-      <rect x="20" y="52" width="150" height="76" rx="8" class="svg-blue"></rect>
-      <rect x="235" y="52" width="150" height="76" rx="8" class="svg-green"></rect>
-      <rect x="450" y="52" width="150" height="76" rx="8" class="svg-coral"></rect>
-      <path d="M180 90 H222" class="svg-arrow"></path>
-      <path d="M395 90 H437" class="svg-arrow"></path>
-      <text x="95" y="97" text-anchor="middle">${labels[0] || "概念"}</text>
-      <text x="310" y="97" text-anchor="middle">${labels[1] || "關係"}</text>
-      <text x="525" y="97" text-anchor="middle">${labels[2] || "結果"}</text>
-    </svg>
+    <div class="flow-diagram" role="img" aria-label="概念流程圖">
+      <div class="flow-node flow-blue">${labels[0] || "概念"}</div>
+      <div class="flow-arrow"></div>
+      <div class="flow-node flow-green">${labels[1] || "關係"}</div>
+      <div class="flow-arrow"></div>
+      <div class="flow-node flow-coral">${labels[2] || "結果"}</div>
+    </div>
   `;
 }
 
 function renderData(data, elements) {
-  elements.quick.textContent = data.quick;
-  elements.plain.textContent = data.plain;
-  elements.analogy.textContent = data.analogy;
-  elements.sentence.textContent = data.sentence;
-  setPoints(data.points, elements);
-  renderLearningVisual(data.visual, elements);
+  const localized = localizeData(data);
+  elements.quick.textContent = localized.quick;
+  elements.plain.textContent = localized.plain;
+  elements.analogy.textContent = localized.analogy;
+  elements.sentence.textContent = localized.sentence;
+  setPoints(localized.points, elements);
+  renderLearningVisual(localized.visual, elements);
+}
+
+function renderUnknownLog(elements) {
+  elements.unknownLog.innerHTML = "";
+  elements.emptyLog.hidden = unknownTerms.length > 0;
+
+  unknownTerms.forEach((term) => {
+    const item = document.createElement("li");
+    item.textContent = term;
+    elements.unknownLog.appendChild(item);
+  });
+}
+
+function addUnknownTerm(term, elements) {
+  if (!unknownTerms.includes(term)) {
+    unknownTerms.push(term);
+  }
+  renderUnknownLog(elements);
 }
 
 function renderExplanation(term, elements) {
   const normalized = term.toLowerCase();
   const key = knownConcepts[term] ? term : aliases[normalized] || normalized;
-  const data = knownConcepts[key] || makeGenericExplanation(term);
+  const isKnown = !!knownConcepts[key];
+  const data = isKnown ? knownConcepts[key] : makeGenericExplanation(term);
 
   renderData(data, elements);
+  return isKnown;
 }
 
 function initApp() {
@@ -821,6 +1432,9 @@ function initApp() {
     points: document.querySelector("#points"),
     sentence: document.querySelector("#sentence"),
     visual: document.querySelector("#concept-visual"),
+    language: document.querySelector("#language"),
+    unknownLog: document.querySelector("#unknown-log"),
+    emptyLog: document.querySelector("#empty-log"),
     chips: document.querySelectorAll("[data-example]"),
   };
 
@@ -832,14 +1446,20 @@ function initApp() {
     !elements.analogy ||
     !elements.points ||
     !elements.sentence ||
-    !elements.visual
+    !elements.visual ||
+    !elements.language ||
+    !elements.unknownLog ||
+    !elements.emptyLog
   ) {
     return;
   }
 
+  updateUiLanguage(elements);
+
   elements.form.addEventListener("submit", (event) => {
     event.preventDefault();
     const term = cleanText(elements.input.value);
+    currentTerm = term;
     if (!term) {
       renderData(defaultMessage, elements);
       elements.input.focus();
@@ -850,12 +1470,26 @@ function initApp() {
       unknownAcronyms.add(term.toLowerCase());
     }
 
-    renderExplanation(term, elements);
+    const isKnown = renderExplanation(term, elements);
+    if (!isKnown) {
+      addUnknownTerm(term, elements);
+    }
+  });
+
+  elements.language.addEventListener("change", () => {
+    currentLanguage = elements.language.value;
+    updateUiLanguage(elements);
+    if (currentTerm) {
+      renderExplanation(currentTerm, elements);
+    } else {
+      renderData(defaultMessage, elements);
+    }
   });
 
   elements.chips.forEach((chip) => {
     chip.addEventListener("click", () => {
       elements.input.value = chip.dataset.example;
+      currentTerm = chip.dataset.example;
       renderExplanation(chip.dataset.example, elements);
       elements.input.focus();
     });
